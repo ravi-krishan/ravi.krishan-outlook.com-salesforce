@@ -4,6 +4,7 @@ public with sharing class TestPageController {
 		myList = new List<String>();
 		myList.add('Ravi');
 		myList.add('Sachin');
+		myList.add('Rohit');
 	}
 	public void Save(){
 		System.debug(myList);
